@@ -1,85 +1,69 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="description" content="Online príprava na monitor z matematiky, slovenčiny a všeobecných študijných predpokladov. Individuálny prístup. Flexibilný rozvrh. Celé Slovensko.">
-<meta name="keywords" content="príprava na monitor, doučovanie monitor, monitor 5, monitor 9, testovanie 5, testovanie 9, math monitor, slovak monitor, študijné predpoklady, online doučovanie, doučovanie Slovensko">
-<meta name="author" content="pripravanamonitor.online"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Exam Preparation – Online Doučovanie</title>
-<style>
-body { font-family: Arial; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
-header { background: #0073e6; color: white; padding: 20px; text-align: center; }
-nav { background: #005bb5; text-align: center; padding: 10px; }
-nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-.container { max-width: 1000px; margin: auto; background: white; padding: 20px; }
-.section { margin-bottom: 40px; }
-footer { background: #003d80; color: white; text-align: center; padding: 15px 0; }
-form { display: flex; flex-direction: column; gap: 10px; }
-input, select, textarea, button { padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
-button { background: #0073e6; color: white; border: none; cursor: pointer; }
-button:hover { background: #005bb5; }
-.lang-switch { text-align: right; margin: 10px; }
-.lang-switch a { text-decoration: none; color: #005bb5; font-weight: bold; margin-left: 10px; }
-</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personalized Tutoring – Monitor, Math, Slovak, GSP</title>
+<meta name="description" content="Individuálne online doučovanie pre prípravu na Monitor, matematiku, slovenčinu a GSP. Cena od 19€ / 60 minút.">
+<meta name="keywords" content="doučovanie, príprava na monitor, online doučovanie, matematika, slovenčina, GSP">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.png">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"EducationalOrganization",
+  "name":"Mirkadoucovanie",
+  "url":"https://www.pripravanamonitor.online",
+    "sameAs":[
+    "https://www.facebook.com/",
+    "https://www.instagram.com/"
+  ],
+  "contactPoint":[{"@type":"ContactPoint","contactType":"customer support","email":"mirkadoucovanie@gmail.com","availableLanguage":["Slovak","English"]}]
+}
+</script>
 </head>
 <body>
 <header>
-<h1>Exam Preparation</h1>
-<p>Online courses a doučovanie – math, slovak, General Study Skills</p>
+<div class="lang-switch"><a href="index.html">SK</a> | <a href="en.html" style="text-decoration:underline">EN</a></div>
+  <div class="overlay">
+    <h1>Personalized Tutoring</h1>
+    <p>Monitor Exam Prep • Math • Slovak • GSP</p>
+    <a href="#kontakt" class="btn">Book a session</a>
+  </div>
 </header>
-<div class="lang-switch">
-<span>Jazyk:</span> <a href="index.html">SK</a> | <a href="en.html">EN</a>
-</div>
-<nav>
-<a href="#courses">Kurzy</a> <a href="#pricing">Pricing</a> <a href="#booking">Booking</a> <a href="#contact">Contact</a>
-</nav>
-<div class="container">
-<section class="section" id="courses">
-<h2>Courses</h2>
-<ul>
-<li>Matematika – príprava na MONITOR 5 a MONITOR 9</li>
-<li>Slovenčina – gramatika, sloh, literatúra</li>
-<li>General Study Skills – všeobecné študijné predpoklady</li>
-</ul>
-</section>
-<section class="section" id="pricing">
-<h2>Pricing</h2>
-<p><strong>Individuálne lekcie:</strong> od 19 € / 60 minút</p>
-<p><small>Cena závisí od úrovne a predmetu.</small></p>
-</section>
-<section class="section" id="booking">
-<h2>Book a Lesson</h2>
-<form name="kontakt" method="POST" data-netlify="true">
-  <input type="hidden" name="form-name" value="kontakt" />
 
-  <input type="text" name="name" placeholder="Your Name" required>
-  <input type="email" name="email" placeholder="Your Email" required>
-
-  <select name="course" required>
-    <option value="">Select a course</option>
-    <option value="english">English</option>
-    <option value="math">Math</option>
-    <option value="slovak">Slovak</option>
-    <option value="gsp">GSP prep</option>
-  </select>
-
-  <textarea name="message" placeholder="Your message or preferred time" rows="4"></textarea>
-
-  <button type="submit">Submit Booking</button>
-</form>
+<section class="benefits">
+  <div class="card">
+    <img src="images/card1.jpg" alt="Personalized approach">
+    <p>Personalized approach</p>
+  </div>
+  <div class="card">
+    <img src="images/card2.jpg" alt="Online only">
+    <p>Online only</p>
+  </div>
+  <div class="card">
+    <img src="images/card3.jpg" alt="Feedback after each lesson">
+    <p>Feedback after each lesson</p>
+  </div>
 </section>
-<section class="section" id="contact">
-<h2>Contact</h2>
-<p>If you are interested or have any questions, feel free to reach out:</p>
-<p><strong>Email:</strong> mirkadoucovanie@gmail.com</p>
-<p><strong>doucma.sk:</strong> <a href="https://www.doucma.sk/112578-doucovanie-doucovanie?af=profile-share" target="_blank">https://www.doucma.sk/112578-doucovanie-doucovanie?af=profile-share</a></p>
-<p><strong>Social Media:</strong> <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+
+<section class="price-contact" id="kontakt">
+  <div class="price"><h2>Lessons start from 19 € / 60 minutes</h2></div>
+  <form name="kontakt" method="POST" data-netlify="true" class="contact-form">
+    <input type="hidden" name="form-name" value="kontakt">
+    <input type="text" name="name" placeholder="Your name" required>
+    <input type="email" name="email" placeholder="Your email" required>
+    <select name="course" required>
+      <option value="">Select subject</option>
+      <option value="matematika">Math</option>
+      <option value="slovencina">Slovak</option>
+      <option value="gsp">GSP</option>
+    </select>
+    <textarea name="message" placeholder="Message or preferred time" rows="2"></textarea>
+    <button type="submit">Submit</button>
+  </form>
 </section>
-</div>
-<footer>
-<p>© 2025 Online Language School. All rights reserved.</p>
-</footer>
+
+<footer>© 2025 pripravanamonitor.online</footer>
 </body>
 </html>
